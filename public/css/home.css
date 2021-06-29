@@ -1,0 +1,157 @@
+.home{
+    background-color: var(--color-gris-claro)
+}
+.home header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.home .barra{
+    text-align: center;
+}
+
+.home ul li{
+    list-style: none;
+
+}
+
+.home .nav1{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: none;
+}
+
+.home .nav2{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: none;
+}
+
+.home .burger-menu{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    width: min-content;
+    background-color: var(--color-celeste);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    
+}
+
+.home .fa-truck{
+    border-radius: 50px;
+    border: solid;
+    color: var(--color-verde);
+    font-size: 30px;
+    
+}
+
+.home article{
+    margin-bottom: 10px;
+    background-color: white;
+    
+
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home .contenedor{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: start;
+
+}
+
+
+
+.titulares{
+    font-size: 24px;
+
+}
+
+
+span{
+    font-size: 16px;
+    color: var(--color-verde);
+}
+
+.home .precio{
+    font-size: 18px;
+
+}
+
+.home .descripcion{
+    font-size:16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+.footer div{
+    margin-bottom: 3rem;
+}
+.footer h4, p{
+    text-align: center;
+}
+
+.footer .icono{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+     color: var(--color-celeste)
+    
+}
+
+@media (min-width: 361px){
+    .home .logoinput img, .barra{
+        margin-top: 2.7em;
+        width: 300px;
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+    }
+
+   
+    
+    .home .titulares{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+   .home .descripcion{
+       display: block;
+   }
+   .home .nav1{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+
+.home .nav2{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+}
+.home .burger-menu{
+    display: none;
+    
+}
+article{
+    box-shadow:0px 0px 15px rgb(100, 100, 100);
+
+}
+
+
+
+} 
+
+@media (min-width: 769px){
+    /* pienso que no modifica nada entre tablet y desktop  */
+}
